@@ -5,7 +5,6 @@
 int main (){
     int choix;
     int n;
-    int i=0;
     float note,noteMax = 0.0,noteMin = 20.0;
     char nom[30], prenom[30],nomM[30],prenomM[30],nomMin[30],prenomMin[30];
     int eleMo = 0;
