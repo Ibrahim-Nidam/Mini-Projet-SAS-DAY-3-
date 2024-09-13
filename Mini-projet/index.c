@@ -50,7 +50,8 @@ int main (){
                     strcpy(prenomM,prenom);
                     noteMax = note;
 
-                }else if (note < noteMin){
+                }
+                if (note < noteMin){
                     strcpy(nomMin,nom);
                     strcpy(prenomMin,prenom);
                     noteMin = note;
